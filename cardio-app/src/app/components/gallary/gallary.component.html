@@ -1,0 +1,36 @@
+<div class="container py-5 bg-body-tertiary">
+  <div class="d-flex flex-column align-items-center gap-4">
+    <div
+      class="border border-2 border-warning bg-warning"
+      style="width: 80px"
+    ></div>
+    <h3 class="text-uppercase fw-bold fs-1">Our workout Gallery</h3>
+    <p class="text-center w-75 text-body-tertiary">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus dicta
+      debitis inventore quaerat sed, quis repellat veniam, cupiditate
+      consequuntur facilis sapiente eligendi rem, quo earum!
+    </p>
+    <div class="row row-cols-3 row-gap-3 w-100">
+      <app-card imgSrc="../../../assets/img-1.jpg"></app-card>
+      <app-card imgSrc="../../../assets/img-2.jpg"></app-card>
+      <app-card imgSrc="../../../assets/img-3.jpg"></app-card>
+      <app-card
+        imgSrc="../../../assets/img-4.jpg"
+        [playButton]="true"
+      ></app-card>
+      <app-card
+        imgSrc="../../../assets/img-5.jpg"
+        [playButton]="true"
+      ></app-card>
+      <app-card
+        imgSrc="../../../assets/img-6.jpg"
+        [playButton]="true"
+      ></app-card>
+    </div>
+    <button
+      class="btn btn-warning py-3 px-5 rounded-pill text-white fw-bold mt-4"
+    >
+      View All
+    </button>
+  </div>
+</div>
